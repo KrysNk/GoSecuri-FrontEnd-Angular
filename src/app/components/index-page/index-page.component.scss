@@ -26,11 +26,13 @@
           //display: block;
           position: relative;
           letter-spacing: 0.15em;
+          font-family: Roboto !important;
+          font-size: 22pt !important;
+          font-weight: 200 !important;
           margin: 0 auto;
           padding: 1rem 2.5rem;
           background: transparent;
           outline: none;
-          font-size: 28px;
           color: $textColor;
           transition: all 0.5s $cubic-bezier 0.15s;
           &::after,
