@@ -6,10 +6,10 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
   styleUrls: ['./identification.component.scss']
 })
 export class IdentificationComponent implements OnInit {
-  @ViewChild("video")
+  @ViewChild('video')
   public video: ElementRef;
 
-  @ViewChild("canvas")
+  @ViewChild('canvas')
   public canvas: ElementRef;
 
   public captures: Array<any>;
@@ -30,7 +30,7 @@ export class IdentificationComponent implements OnInit {
   }
 
   public capture() {
-    var context = this.canvas.nativeElement.getContext("2d").drawImage(this.video.nativeElement, 0, 0, 640, 480);
-    this.captures.push(this.canvas.nativeElement.toDataURL("image/png"));
+    const context = this.canvas.nativeElement.getContext('2d').drawImage(this.video.nativeElement, 0, 0, 640, 480);
+    this.captures.push(this.canvas.nativeElement.toDataURL('image/png'));
   }
 }
