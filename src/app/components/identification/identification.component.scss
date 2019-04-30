@@ -8,6 +8,10 @@ body {
 }
 #video {
     background-color: #000000;
+    width: 85% ;
+    height: 100% ; 
+    float: left ;
+    
 }
 #canvas {
     display: none;
@@ -15,4 +19,9 @@ body {
 li {
     display: inline;
     padding: 5px;
+}
+
+#btn {
+    font-family: Roboto;
+
 }
