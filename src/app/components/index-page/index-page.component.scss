@@ -26,9 +26,9 @@
           //display: block;
           position: relative;
           letter-spacing: 0.15em;
-          font-family: Roboto !important;
-          font-size: 22pt !important;
-          font-weight: 700 !important;
+          font-family: 'Roboto', sans-serif;
+          font-size: 22pt ;
+          font-weight: 700 ;
           margin: 0 auto;
           padding: 1rem 2.5rem;
           background: transparent;
@@ -88,7 +88,7 @@
   }
   
   body {
-      font-family: "Lato", sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: $black;
       display: flex;
       align-items: center;
