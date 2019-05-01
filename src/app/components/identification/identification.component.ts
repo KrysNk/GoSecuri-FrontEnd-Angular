@@ -30,6 +30,6 @@ export class IdentificationComponent implements OnInit {
   }
 
   public capture() {
-    
+
   }
 }

@@ -1,3 +1,4 @@
+import { HomeAdminComponent } from './components/home-admin/home-admin.component';
 import { LoginAdminComponent } from './components/login-admin/login-admin.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -9,7 +10,8 @@ const routes: Routes = [
 {path: '', redirectTo: '/index-page', pathMatch: 'full' },
 {path: 'identification', component: IdentificationComponent },
 {path: 'index-page', component: IndexPageComponent},
-{path: 'login-admin', component: LoginAdminComponent}
+{path: 'login-admin', component: LoginAdminComponent},
+{path: 'home-admin', component: HomeAdminComponent}
   ];
 
 @NgModule({
