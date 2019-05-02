@@ -1,11 +1,13 @@
 <div id="app">
-  <div><video #video id="video" class="video" autoplay></video></div>
-  <div><button id="snap" (click)="capture()" class="btn btn-outline-primary">S'identifier</button></div>
+  <div>
+    <video #video id="video" width="640" height="480" autoplay></video>
+  </div>
   
-  <canvas #canvas id="canvas" width="640" height="480"></canvas>
-  <ul>
-      <li *ngFor="let c of captures">
-          <img src="{{ c }}" height="50" />
-      </li>
-  </ul>
+  <div class="btn">
+    <button class="button" id="snap" (click)="capture()">S'identifier</button>
+  </div>
+  
+  <div>
+    <a class="btn2" [routerLink]="['/login-admin']">Administration ?</a>
+  </div>
 </div>
